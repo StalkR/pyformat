@@ -12,7 +12,7 @@ def version():
     with open('pyformat.py') as input_file:
         for line in input_file:
             if line.startswith('__version__'):
-                return ast.parse(line).body[0].value.s
+                return ast.parse(line).body[0].value.value
 
 
 with open('README.rst') as readme:
