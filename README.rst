@@ -2,9 +2,13 @@
 pyformat
 ========
 
-.. image:: https://travis-ci.org/myint/pyformat.svg?branch=master
-    :target: https://travis-ci.org/myint/pyformat
+.. image:: https://github.com/myint/pyformat/actions/workflows/build.yml/badge.svg
+    :target: https://github.com/pyformat/actions/actions/workflows/build.yml
     :alt: Build status
+
+.. image:: https://coveralls.io/repos/github/myint/pyformat/badge.svg
+    :target: https://coveralls.io/github/myint/pyformat
+    :alt: Coverage status
 
 *pyformat* formats Python code to follow a consistent style.
 
